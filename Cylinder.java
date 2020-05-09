@@ -25,11 +25,11 @@ public class Cylinder extends Shape implements AreaCalculable, VolumeCalculable{
     }
     
     public double getArea(){
-		return width * height;
+		return Math.PI * radius * radius * height;
     }
     
     public double getVolume(){
-		return width * height *length;
+		return 2 * Math.PI * radius * height + 2 * Math.PI * radius * radius;
     }
     
     public void zoom(double factor){
@@ -37,6 +37,10 @@ public class Cylinder extends Shape implements AreaCalculable, VolumeCalculable{
         height = height * factor;
     }
     
-
+    public static void main(String[] args){
+        Cylinder d = new Cylinder("C2",3.0,2.0);
+        System.out.println("Area of " + d.getName() + " is " + d.getArea());
+        System.out.println("Volume of " + d.getName() + " is " + d.getVolume());
+    }
     
 }
