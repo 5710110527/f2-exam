@@ -6,8 +6,8 @@ public class ReadFile {
 
   public static void main(String[] args) {
     try {
-      File myObj = new File("test.txt");
-      Scanner myReader = new Scanner(myObj);
+      File s = new File("data.txt");
+      Scanner myReader = new Scanner(s);
       while (myReader.hasNextLine()) {
         String data = myReader.nextLine();
         System.out.println(data);
