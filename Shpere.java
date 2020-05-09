@@ -1,3 +1,6 @@
-public class Shpere implements AreaCalculable, VolumeCalculable{
+public class Shpere extends Shape implements AreaCalculable, VolumeCalculable{
     
+    public Shpere(){
+        
+    }
 }
