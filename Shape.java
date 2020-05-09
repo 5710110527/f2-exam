@@ -1,4 +1,4 @@
-public abstract class Shape {
+public abstract class Shape implements Zoomable {
     public String name;
 
     public Shape(String name){
@@ -9,5 +9,6 @@ public abstract class Shape {
         retune name;
     }
 
-    public abstract double spliteString();
+    public abstract double spliteString(String key);
+
 }
