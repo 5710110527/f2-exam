@@ -9,5 +9,5 @@ public abstract class Shape {
         retune name;
     }
 
-    public abstract void spliteString();
+    public abstract double spliteString();
 }
