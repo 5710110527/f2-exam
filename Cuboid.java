@@ -52,7 +52,7 @@ public class Cuboid extends Shape implements AreaCalculable, VolumeCalculable {
         Rectangle c = new Rectangle("R1", 2.0, 8.0);
         Cuboid er = new Cuboid("R2",2.0,8.0,3.0);
         System.out.println("Area of " + c.getName() + " is " + c.getArea());
-        System.out.println("Area of " + er.getName() + " is " + c.getVolume());
+        System.out.println("Area of " + er.getName() + " is " + er.getVolume());
 	}
 
 }
