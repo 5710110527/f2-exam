@@ -9,5 +9,7 @@ public class Circle extends Shape implements AreaCalculable {
     public double getArea(){
 		return Math.PI * radius * radius;
     }
-    
+
+    public void zoom(double factor){
+		radius = radius * factor;
 }
