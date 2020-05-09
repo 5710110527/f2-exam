@@ -34,6 +34,9 @@ public class Rectangle extends Shape implements AreaCalculable {
 		width = width * factor;
 		height = height * factor;
 	}
-
+	public static void main(String[] args){
+        Rectangle g = new Rectangle("G12",2.0,8.0);
+        System.out.println("Area of " + g.getName() + " is " + g.getArea());
+    }
 
 }
