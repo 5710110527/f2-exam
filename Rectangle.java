@@ -1,4 +1,4 @@
-public class Rectangle implements AreaCalculable {
+public class Rectangle extends Shape implements AreaCalculable {
     private double width;
     private double height;
    
