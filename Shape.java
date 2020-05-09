@@ -8,4 +8,6 @@ public abstract class Shape {
     public String getName(){
         retune name;
     }
+
+    public abstract void spliteString();
 }
