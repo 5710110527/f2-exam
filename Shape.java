@@ -6,7 +6,6 @@ public abstract class Shape implements Zoomable {
     }
 
     public String getName(){
-        retune name;
+        return name;
     }
-    
 }
